@@ -1,0 +1,18 @@
+In this problem set, we design four pwn CTF problem. Pwn is a leetspeak
+  slang term derived from the verb own, meaning to appropriate or to
+  conquer to gain ownership. - Wikipedia. There are special strings
+  called 'flag' in the computer system that we provide via docker.
+For each problem, there exists only one flag, and it looks like
+  'flag{xxxx}'. The flag is dynamic, so each time you start a docker
+  container, the flag may change. You only need to submit one. The four
+  problems are stack overflow problems, so try to focus on the stack
+  layout and solve the problem. Please do NOT try to reverse the 'flag()'
+  function or your write-up will be treated as invalid.
+
+Instruction:
+  1. Download the tar ball associated with this assignment.
+  2. Build the container via `docker build . -t ist543:problem_set_6`.
+  3. Run the container via `docker run --privileged -it ist543:problem_set_6`.
+  4. Read codes in pseudocode folder.
+  5. Binaries lay in `/problem_set_6` of the container. Feed them with
+    proper input and get a flag.
